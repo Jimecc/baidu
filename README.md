@@ -1,5 +1,5 @@
 # Baidu.com
-<div style="text-align:center"><img src="https://files.catbox.moe/ltfc1r.png" style="width:90%"></div>
+<div align=center><img src="https://files.catbox.moe/ltfc1r.png" style="width:90%"></div>
 
 ## Project setup
 ```
