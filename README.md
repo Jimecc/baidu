@@ -1,6 +1,5 @@
-# Baidu
-
-<img src="https://files.catbox.moe/ltfc1r.png" style="width:90%">
+# Baidu.com
+<div style="text-align:center"><img src="https://files.catbox.moe/ltfc1r.png" style="width:90%"></div>
 
 ## Project setup
 ```
