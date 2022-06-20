@@ -11,9 +11,10 @@
       <el-input v-model="searchInput" @keydown.enter.native="doSearch" placeholder="请输入搜索内容..."></el-input>
       <el-button type="primary" class="buttonSearch" @click="doSearch">百度一下 </el-button>
     </div>
-    <div style="margin-top: 10px">
-      <el-button class="buttonSeniorSearch" type="primary" @click="showSeniorSearch" size="mini" icon="el-icon-search">高级搜索</el-button>
-      <el-button class="buttonSeniorSearch" type="primary" size="mini" icon="el-icon-setting">搜索设置</el-button>
+    <div style="margin-top: 45px">
+<!--      style="background-image:url(https://files.catbox.moe/rn2kav.gif)"-->
+      <el-button class="buttonSeniorSearch" type="primary" style="background-image:url(https://files.catbox.moe/nkmcwl.gif)" @click="showSeniorSearch" size="mini" icon="el-icon-search">高级搜索</el-button>
+<!--      <el-button class="buttonSeniorSearch" type="primary" size="mini" icon="el-icon-setting">搜索设置</el-button>-->
     </div>
 
     <el-dialog
@@ -229,7 +230,6 @@ export default {
     console.log("%c欢迎使用纯净版 Baidu，我们只为追求极简。\nGithub:https://github.com/Jimecc","color:pink");
   },
   methods:{
-
     getTimeStamp(a) {
       let time = new Date().getTime();
       let now = (time + '').substring(0, 10);
